@@ -1,0 +1,15 @@
+this is message
+This is other emssage
+this is test
+Mon Jul 31 21:54 2017 \n\tMon Jul 31 21:54 2017
+Mon Jul 31 21:55 2017 
+	Mon Jul 31 21:55 2017
+Mon Jul 31 21:57 2017 
+	Mon Jul 31 21:57 2017
+
+Mon Jul 31 22:11 2017 
+    0blah
+Mon Jul 31 22:13 2017 
+messsage time!
+Mon Jul 31 22:14 2017 	Final test of writing message to file
+Mon Jul 31 22:15 2017 	Ok, this is the final test

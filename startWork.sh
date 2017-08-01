@@ -4,6 +4,7 @@ START_WORk_TAG="StartWork"
 logFileName="StartWorkLog.txt"
 
 commitMessage=""
+commitTime=""
 
 #Get commit message if not provided.
 if test $# -eq 0;
@@ -18,15 +19,17 @@ else
   exit 1
 fi
 
-#Get log file
-
-
 #Get time stamp
+commitTime=`date '+%a %b %_d %R %Y'`
 
-echo "Here is the provided commit message:"
-echo $commitMessage
+#Concatonate time stamp, tag, and message
+fullMessage=`printf "$commitTime \t$startWorkTag$commitMessage\n"`
+
+echo "Here is the full message"
+echo $fullMessage
 
 #Append Time stamp and Message to log file.
+echo "$fullMessage" >> $logFileName
 
 #close the log file.
 
