@@ -1,7 +1,7 @@
 #! /bin/bash
 
 START_WORk_TAG="StartWork"
-logFileName="StartWorkLog"
+logFileName=".git/logs/StartWorkLog"
 
 startWorkMessage=""
 startWorkTime=""
